@@ -1,0 +1,6 @@
+describe("init", function()
+    it("should return a table", function()
+        local init = require("name-of-plugin")
+        assert(init ~= nil)
+    end)
+end)
